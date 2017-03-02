@@ -1,7 +1,9 @@
 class DemoController < ApplicationController
   def index
+  	
   end
 
-  def store
-  end
+  # def hello
+  # 	render('hello')
+  # end
 end

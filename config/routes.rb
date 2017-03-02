@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
-	root 'demo#index'
+	root 'pages#index'
 
-  get 'demo/index'
+  get 'pages/index'
+  get 'pages/hello'
 
   # Default route
   # May go away in future versions of Rails
